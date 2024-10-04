@@ -1,0 +1,104 @@
+2024-10-04T14:36:05.421-03:00  INFO 192 --- [demo-1] [restartedMain] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.11 with PID 192 (C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\demo-1\target\classes started by yue in C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\demo-1)
+2024-10-04T14:36:05.423-03:00  INFO 192 --- [demo-1] [restartedMain] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2024-10-04T14:36:05.452-03:00  INFO 192 --- [demo-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04T14:36:05.452-03:00  INFO 192 --- [demo-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04T14:36:05.868-03:00  INFO 192 --- [demo-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-04T14:36:05.884-03:00  INFO 192 --- [demo-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-10-04T14:36:06.236-03:00  INFO 192 --- [demo-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-04T14:36:06.245-03:00  INFO 192 --- [demo-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-04T14:36:06.245-03:00  INFO 192 --- [demo-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-04T14:36:06.282-03:00  INFO 192 --- [demo-1] [restartedMain] o.a.c.c.C.[.[localhost].[/demo-1]        : Initializing Spring embedded WebApplicationContext
+2024-10-04T14:36:06.282-03:00  INFO 192 --- [demo-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 829 ms
+2024-10-04T14:36:06.403-03:00  INFO 192 --- [demo-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-04T14:36:06.451-03:00  INFO 192 --- [demo-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-04T14:36:06.479-03:00  INFO 192 --- [demo-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-04T14:36:06.695-03:00  INFO 192 --- [demo-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-04T14:36:06.718-03:00  INFO 192 --- [demo-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-04T14:36:06.848-03:00  INFO 192 --- [demo-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@708df5b4
+2024-10-04T14:36:06.849-03:00  INFO 192 --- [demo-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-04T14:36:07.128-03:00  INFO 192 --- [demo-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-04T14:36:07.133-03:00  INFO 192 --- [demo-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T14:36:07.226-03:00 DEBUG 192 --- [demo-1] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04T14:36:07.278-03:00 DEBUG 192 --- [demo-1] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04T14:36:07.303-03:00 DEBUG 192 --- [demo-1] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04T14:36:07.324-03:00 DEBUG 192 --- [demo-1] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04T14:36:07.416-03:00  INFO 192 --- [demo-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-04T14:36:07.447-03:00  INFO 192 --- [demo-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/demo-1'
+2024-10-04T14:36:07.453-03:00  INFO 192 --- [demo-1] [restartedMain] com.example.demo.Demo1Application        : Started Demo1Application in 2.313 seconds (process running for 2.92)
+2024-10-04T14:37:28.032-03:00  INFO 192 --- [demo-1] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-10-04T14:37:28.057-03:00  INFO 192 --- [demo-1] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T14:37:28.060-03:00  INFO 192 --- [demo-1] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-04T14:37:28.063-03:00  INFO 192 --- [demo-1] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-04T14:37:38.027-03:00  INFO 804 --- [demo-1] [restartedMain] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.11 with PID 804 (C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\demo-1\target\classes started by yue in C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\demo-1)
+2024-10-04T14:37:38.030-03:00  INFO 804 --- [demo-1] [restartedMain] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2024-10-04T14:37:38.058-03:00  INFO 804 --- [demo-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04T14:37:38.058-03:00  INFO 804 --- [demo-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04T14:37:38.195-03:00  INFO 10468 --- [demo-1] [restartedMain] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.11 with PID 10468 (C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\demo-1\target\classes started by yue in C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\demo-1)
+2024-10-04T14:37:38.197-03:00  INFO 10468 --- [demo-1] [restartedMain] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2024-10-04T14:37:38.227-03:00  INFO 10468 --- [demo-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04T14:37:38.228-03:00  INFO 10468 --- [demo-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04T14:37:38.484-03:00  INFO 804 --- [demo-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-04T14:37:38.501-03:00  INFO 804 --- [demo-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-10-04T14:37:38.642-03:00  INFO 10468 --- [demo-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-04T14:37:38.657-03:00  INFO 10468 --- [demo-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-10-04T14:37:38.854-03:00  INFO 804 --- [demo-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-04T14:37:38.863-03:00  INFO 804 --- [demo-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-04T14:37:38.864-03:00  INFO 804 --- [demo-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-04T14:37:38.901-03:00  INFO 804 --- [demo-1] [restartedMain] o.a.c.c.C.[.[localhost].[/demo-1]        : Initializing Spring embedded WebApplicationContext
+2024-10-04T14:37:38.902-03:00  INFO 804 --- [demo-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 844 ms
+2024-10-04T14:37:39.009-03:00  INFO 804 --- [demo-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-04T14:37:39.014-03:00  INFO 10468 --- [demo-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-04T14:37:39.024-03:00  INFO 10468 --- [demo-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-04T14:37:39.024-03:00  INFO 10468 --- [demo-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-04T14:37:39.045-03:00  INFO 804 --- [demo-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-04T14:37:39.057-03:00  INFO 10468 --- [demo-1] [restartedMain] o.a.c.c.C.[.[localhost].[/demo-1]        : Initializing Spring embedded WebApplicationContext
+2024-10-04T14:37:39.057-03:00  INFO 10468 --- [demo-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 829 ms
+2024-10-04T14:37:39.068-03:00  INFO 804 --- [demo-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-04T14:37:39.153-03:00  INFO 10468 --- [demo-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-04T14:37:39.189-03:00  INFO 10468 --- [demo-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-04T14:37:39.218-03:00  INFO 10468 --- [demo-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-04T14:37:39.269-03:00  INFO 804 --- [demo-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-04T14:37:39.290-03:00  INFO 804 --- [demo-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-04T14:37:39.415-03:00  INFO 804 --- [demo-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f083d2a
+2024-10-04T14:37:39.417-03:00  INFO 804 --- [demo-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-04T14:37:39.424-03:00  INFO 10468 --- [demo-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-04T14:37:39.444-03:00  INFO 10468 --- [demo-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-04T14:37:39.568-03:00  INFO 10468 --- [demo-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@271dea2b
+2024-10-04T14:37:39.569-03:00  INFO 10468 --- [demo-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-04T14:37:39.681-03:00  INFO 804 --- [demo-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-04T14:37:39.685-03:00  INFO 804 --- [demo-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T14:37:39.782-03:00 DEBUG 804 --- [demo-1] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04T14:37:39.837-03:00 DEBUG 804 --- [demo-1] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04T14:37:39.841-03:00  INFO 10468 --- [demo-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-04T14:37:39.845-03:00  INFO 10468 --- [demo-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T14:37:39.863-03:00 DEBUG 804 --- [demo-1] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04T14:37:39.884-03:00 DEBUG 804 --- [demo-1] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04T14:37:39.944-03:00 DEBUG 10468 --- [demo-1] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04T14:37:39.981-03:00  INFO 804 --- [demo-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-04T14:37:40.005-03:00 DEBUG 10468 --- [demo-1] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04T14:37:40.008-03:00  INFO 804 --- [demo-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/demo-1'
+2024-10-04T14:37:40.015-03:00  INFO 804 --- [demo-1] [restartedMain] com.example.demo.Demo1Application        : Started Demo1Application in 2.244 seconds (process running for 2.656)
+2024-10-04T14:37:40.033-03:00 DEBUG 10468 --- [demo-1] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04T14:37:40.054-03:00 DEBUG 10468 --- [demo-1] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04T14:37:40.139-03:00  WARN 10468 --- [demo-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-10-04T14:37:40.157-03:00  WARN 10468 --- [demo-1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-04T14:37:40.158-03:00  INFO 10468 --- [demo-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T14:37:40.161-03:00  INFO 10468 --- [demo-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-04T14:37:40.225-03:00  INFO 10468 --- [demo-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-04T14:37:40.235-03:00  INFO 10468 --- [demo-1] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-04T14:37:40.251-03:00 ERROR 10468 --- [demo-1] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+

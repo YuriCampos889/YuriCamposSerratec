@@ -1,0 +1,138 @@
+2024-10-04T15:02:40.293-03:00  INFO 2704 --- [generos] [restartedMain] com.example.generos.GenerosApplication   : Starting GenerosApplication using Java 17.0.11 with PID 2704 (C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\generos\target\classes started by yue in C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\generos)
+2024-10-04T15:02:40.295-03:00  INFO 2704 --- [generos] [restartedMain] com.example.generos.GenerosApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-04T15:02:40.321-03:00  INFO 2704 --- [generos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04T15:02:40.322-03:00  INFO 2704 --- [generos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04T15:02:40.713-03:00  INFO 2704 --- [generos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-04T15:02:40.728-03:00  INFO 2704 --- [generos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-10-04T15:02:41.051-03:00  INFO 2704 --- [generos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-04T15:02:41.060-03:00  INFO 2704 --- [generos] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-04T15:02:41.061-03:00  INFO 2704 --- [generos] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-04T15:02:41.096-03:00  INFO 2704 --- [generos] [restartedMain] o.a.c.c.C.[.[localhost].[/generos]       : Initializing Spring embedded WebApplicationContext
+2024-10-04T15:02:41.097-03:00  INFO 2704 --- [generos] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 775 ms
+2024-10-04T15:02:41.194-03:00  INFO 2704 --- [generos] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-04T15:02:41.232-03:00  INFO 2704 --- [generos] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-04T15:02:41.254-03:00  INFO 2704 --- [generos] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-04T15:02:41.439-03:00  INFO 2704 --- [generos] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-04T15:02:41.459-03:00  INFO 2704 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-04T15:02:41.572-03:00  INFO 2704 --- [generos] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f8aea69
+2024-10-04T15:02:41.573-03:00  INFO 2704 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-04T15:02:41.821-03:00  INFO 2704 --- [generos] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-04T15:02:41.825-03:00  INFO 2704 --- [generos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T15:02:41.913-03:00 DEBUG 2704 --- [generos] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-10-04T15:02:41.966-03:00 DEBUG 2704 --- [generos] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04T15:02:41.990-03:00 DEBUG 2704 --- [generos] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04T15:02:42.012-03:00 DEBUG 2704 --- [generos] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04T15:02:42.093-03:00  WARN 2704 --- [generos] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-10-04T15:02:42.109-03:00  WARN 2704 --- [generos] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-04T15:02:42.110-03:00  INFO 2704 --- [generos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T15:02:42.112-03:00  INFO 2704 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-04T15:02:42.144-03:00  INFO 2704 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-04T15:02:42.153-03:00  INFO 2704 --- [generos] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-04T15:02:42.166-03:00 ERROR 2704 --- [generos] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+2024-10-04T15:12:53.770-03:00  INFO 18280 --- [generos] [restartedMain] com.example.generos.GenerosApplication   : Starting GenerosApplication using Java 17.0.11 with PID 18280 (C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\generos\target\classes started by yue in C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\generos)
+2024-10-04T15:12:53.772-03:00  INFO 18280 --- [generos] [restartedMain] com.example.generos.GenerosApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-04T15:12:53.798-03:00  INFO 18280 --- [generos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04T15:12:53.799-03:00  INFO 18280 --- [generos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04T15:12:54.181-03:00  INFO 18280 --- [generos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-04T15:12:54.196-03:00  INFO 18280 --- [generos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-10-04T15:12:54.541-03:00  INFO 18280 --- [generos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-04T15:12:54.550-03:00  INFO 18280 --- [generos] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-04T15:12:54.550-03:00  INFO 18280 --- [generos] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-04T15:12:54.584-03:00  INFO 18280 --- [generos] [restartedMain] o.a.c.c.C.[.[localhost].[/generos]       : Initializing Spring embedded WebApplicationContext
+2024-10-04T15:12:54.585-03:00  INFO 18280 --- [generos] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
+2024-10-04T15:12:54.677-03:00  INFO 18280 --- [generos] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-04T15:12:54.713-03:00  INFO 18280 --- [generos] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-04T15:12:54.735-03:00  INFO 18280 --- [generos] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-04T15:12:54.921-03:00  INFO 18280 --- [generos] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-04T15:12:54.942-03:00  INFO 18280 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-04T15:12:55.058-03:00  INFO 18280 --- [generos] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@431a3d58
+2024-10-04T15:12:55.058-03:00  INFO 18280 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-04T15:12:55.308-03:00  INFO 18280 --- [generos] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-04T15:12:55.311-03:00  INFO 18280 --- [generos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T15:12:55.401-03:00 DEBUG 18280 --- [generos] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-10-04T15:12:55.456-03:00 DEBUG 18280 --- [generos] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04T15:12:55.482-03:00 DEBUG 18280 --- [generos] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04T15:12:55.504-03:00 DEBUG 18280 --- [generos] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04T15:12:55.587-03:00  WARN 18280 --- [generos] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-10-04T15:12:55.601-03:00  WARN 18280 --- [generos] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-04T15:12:55.603-03:00  INFO 18280 --- [generos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T15:12:55.605-03:00  INFO 18280 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-04T15:12:55.645-03:00  INFO 18280 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-04T15:12:55.654-03:00  INFO 18280 --- [generos] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-04T15:12:55.667-03:00 ERROR 18280 --- [generos] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+2024-10-04T15:14:28.680-03:00  INFO 280 --- [generos] [restartedMain] com.example.generos.GenerosApplication   : Starting GenerosApplication using Java 17.0.11 with PID 280 (C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\generos\target\classes started by yue in C:\Users\yue\Desktop\Yuri-Campos---Serratec-\api\Workspace\generos)
+2024-10-04T15:14:28.682-03:00  INFO 280 --- [generos] [restartedMain] com.example.generos.GenerosApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-04T15:14:28.707-03:00  INFO 280 --- [generos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04T15:14:28.708-03:00  INFO 280 --- [generos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04T15:14:29.092-03:00  INFO 280 --- [generos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-04T15:14:29.108-03:00  INFO 280 --- [generos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-10-04T15:14:29.431-03:00  INFO 280 --- [generos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-10-04T15:14:29.441-03:00  INFO 280 --- [generos] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-04T15:14:29.441-03:00  INFO 280 --- [generos] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-04T15:14:29.474-03:00  INFO 280 --- [generos] [restartedMain] o.a.c.c.C.[.[localhost].[/generos]       : Initializing Spring embedded WebApplicationContext
+2024-10-04T15:14:29.474-03:00  INFO 280 --- [generos] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 766 ms
+2024-10-04T15:14:29.568-03:00  INFO 280 --- [generos] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-04T15:14:29.621-03:00  INFO 280 --- [generos] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-04T15:14:29.644-03:00  INFO 280 --- [generos] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-04T15:14:29.829-03:00  INFO 280 --- [generos] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-04T15:14:29.850-03:00  INFO 280 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-04T15:14:29.963-03:00  INFO 280 --- [generos] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37def4ab
+2024-10-04T15:14:29.964-03:00  INFO 280 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-04T15:14:30.210-03:00  INFO 280 --- [generos] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-04T15:14:30.214-03:00  INFO 280 --- [generos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T15:14:30.301-03:00 DEBUG 280 --- [generos] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-10-04T15:14:30.353-03:00 DEBUG 280 --- [generos] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04T15:14:30.378-03:00 DEBUG 280 --- [generos] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04T15:14:30.402-03:00 DEBUG 280 --- [generos] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04T15:14:30.481-03:00  WARN 280 --- [generos] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-10-04T15:14:30.498-03:00  WARN 280 --- [generos] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-04T15:14:30.499-03:00  INFO 280 --- [generos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04T15:14:30.500-03:00  INFO 280 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-04T15:14:30.526-03:00  INFO 280 --- [generos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-04T15:14:30.534-03:00  INFO 280 --- [generos] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-04T15:14:30.547-03:00 ERROR 280 --- [generos] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
